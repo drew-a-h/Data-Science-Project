@@ -1,0 +1,2 @@
+# Make sure to have used the load.R program to get the names right
+boxplot(PokemonLegendary$base_egg_steps, PokemonNormal$base_egg_steps,col=c("Gold", "Purple"),main="Boxplot Comparisons(egg Steps)",names=c("Legendary","Normal"),las = 2, horizontal =TRUE)

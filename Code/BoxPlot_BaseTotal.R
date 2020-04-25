@@ -1,0 +1,2 @@
+# Make sure to have used the load.R program to get the names right
+boxplot(PokemonLegendary$base_total, PokemonNormal$base_total,col=c("Gold", "Purple"),main="Boxplot Comparisons(Total)",names=c("Legendary","Normal"),las = 2, horizontal =TRUE)
